@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.article-container {
+    max-width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: #007aff;
+    text-decoration: none;
+    transition: color 0.3s;
+    z-index: 9;
+    transition: transform 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  transform: translateX(-5px);
+}
+
+.cover-image {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    box-shadow: inset 0px -150px 30px -20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.cover-image:hover {
+    box-shadow: inset 0px -150px 30px -20px rgba(0, 0, 0, 0.1);
+}
+
+
+.cover-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.cover-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.cover-text h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.cover-image:hover .cover-text{
+  opacity: 0;
+}
+
+.content {
+    padding: 40px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #007aff;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
