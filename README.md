@@ -94,4 +94,4 @@ pastikan untuk mengatur **windows firewall** agar bolehin akses ke xampp. kalo e
 👤 | pawas
 👤 | faris
 
-* kalo bisa lanjutin ya ke angkatan selanjutnya, diimprove juga ;)
+* kalo bisa lanjutin ya ke angkatan selanjutnya, diimprove juga ;)"# kpom" 
