@@ -96,3 +96,4 @@ pastikan untuk mengatur **windows firewall** agar bolehin akses ke xampp. kalo e
 
 * kalo bisa lanjutin ya ke angkatan selanjutnya, diimprove juga ;)"# kpom" 
 "# website-kpom" 
+"# website-kpom" 
