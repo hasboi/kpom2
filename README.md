@@ -85,9 +85,10 @@ pastikan untuk mengatur **windows firewall** agar bolehin akses ke xampp. kalo e
 6. jika **xampp** tidak ada dalam daftar, klik **change settings** dan kemudian **allow another app**. cari direktori instalasi xampp, pilih **apache** dan tambahkan.
 7. setelah selesai, klik **ok** untuk menyimpan pengaturan.
 
+### catatan lain
+- buat catat progress otomatis, kalian bisa buka progress.py dari awal sampai habis, di sana kami bikin interval updatenya 2 menit sekali
 
-***
-***
+---
 **gadhraziel16**
 
 👤 | hasbi 
