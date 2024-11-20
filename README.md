@@ -42,12 +42,9 @@ kpom2/
 └── voting.php                  # halaman untuk melakukan voting oleh pemilih terdaftar
 ```
 
-Berikut adalah format yang sudah disesuaikan dengan markdown untuk subbab **visualisasi** dan **cara menjalankan**:
-
-
 ## visualisasi
 
-visualisasi progress pemilihan bisa pake platform **[app.flourish.studio](https://app.flourish.studio)**. di sini kita bisa buat dan visualisasikan bar chart race **progress-ldp-bar.csv**, **progress-mps-bar.csv**, dan **progress-osis-bar.csv**. format data yang digunakan dalam file csv tersebut sudah siap untuk dimasukkan ke dalam platform untuk divisualisasikan.
+visualisasi progress pemilihan bisa pake platform **[app.flourish.studio](flourish)**. di sini kita bisa buat dan visualisasikan bar chart race **progress-ldp-bar.csv**, **progress-mps-bar.csv**, dan **progress-osis-bar.csv**. format data yang digunakan dalam file csv tersebut sudah siap untuk dimasukkan ke dalam platform untuk divisualisasikan.
 
 contoh visualisasi dapat dilihat [di sini](https://app.flourish.studio/visualisation/19895848/edit).
 
@@ -70,8 +67,8 @@ sampe kpom kemarin, kebanyakan hotspot laptop cuma bisa dihubungkan **maksimum 8
 
 ## persyaratan sistem
 
-- **xampp** versi 7.x atau lebih tinggi
-- **python** 3.x untuk menjalankan script python
+- **xampp** versi 3.3 atau lebih tinggi
+- **python** 3.11 untuk menjalankan script python
 
 ### catatan tentang windows firewall
 
