@@ -88,8 +88,9 @@ pastikan buat ngatur biar **windows firewall** bolehin akses ke xampp. kalo engg
 ---
 **gadhraziel16**
 
-👤 | hasbi | mhasbishidiq03@gmail.com | hasbio._
+👤 | hasbi | mhasbishidiq03@gmail.com | hasbio._ 
 👤 | pawas | anugerahmuhazzib6@gmail.com | anugrh_fawwaz
-👤 | faris | fariszikra90@gmail.com | fariszikraa  
+👤 | faris | fariszikra90@gmail.com | fariszikraa 
+*kalo ada yang mau ditanyain jangan sungkan
 
 * kalo bisa lanjutin ya ke angkatan selanjutnya, diimprove juga ;)
