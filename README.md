@@ -44,19 +44,19 @@ kpom2/
 
 ## visualisasi
 
-visualisasi progress pemilihan bisa pake platform **[app.flourish.studio](flourish)**. di sini kita bisa buat dan visualisasikan bar chart race **progress-ldp-bar.csv**, **progress-mps-bar.csv**, dan **progress-osis-bar.csv**. format data yang digunakan dalam file csv tersebut sudah siap untuk dimasukkan ke dalam platform untuk divisualisasikan.
+visualisasi progress pemilihan bisa pake platform **[app.flourish.studio](flourish)**. di sini kita bisa buat dan visualisasikan bar chart race **progress-ldp-bar.csv**, **progress-mps-bar.csv**, dan **progress-osis-bar.csv**. format data yang digunakan dalam file csv tadi udah siap buat dimasukkin ke dalam platform untuk divisualisasikan.
 
 contoh visualisasi dapat dilihat [di sini](https://app.flourish.studio/visualisation/19895848/edit).
 
-pastikan untuk mengupload data sesuai dengan format yang ada di **progress-*-bar.csv**. kalo memungkinkan, kalian juga bisa membuat website agar secara otomatis menyimpan data dalam format tersebut (kemarin kami ga sempat bikin karena buru-buru)
+pastikan buat ngupload data sesuai dengan format yang ada di **progress-*-bar.csv**, yang sebenarnya cuma transpose dari progress-*, kami kemarin transposenya manual pakai excel, ada deh intinya caranya, cari aja. kalo memungkinkan, kalian juga bisa buat biar website secara otomatis menyimpan data dalam format tersebut, terus disimpen ke progress- (kemarin kami ga sempat bikin karena buru-buru), jadi kalian bisa langsung upload file progress- di flourish, yang progress--barnya tinggal dihapus deh
 
 sebenernya mereka cuma butuh data transpose dari progress-*, kalian bisa liat sendiri
 
 ## cara menjalankan
 
-untuk menjalankan **kpom** tahun 2023/2024, kami menggunakan **xampp** sebagai server lokal. berikut langkah-langkahnya:
+untuk menjalankan **kpom** tahun 2023/2024, kami pakai **xampp** sebagai server lokal. berikut langkah-langkahnya:
 
-1. **install xampp** di laptop yang akan digunakan sebagai server.
+1. **install xampp** di laptop yang bakal kalian gunain sebagai server.
 2. Letakkan direktori **kpom/** di dalam folder `htdocs` milik XAMPP.
 3. jalankan **XAMPP**, kemudian aktifkan **apache**.
 4. hubungkan laptop klien ke hotspot lokal yang dibuat dari laptop host (server). laptop lain, atau client, harus terhubung ke hotspot ini.
@@ -67,12 +67,12 @@ sampe kpom kemarin, kebanyakan hotspot laptop cuma bisa dihubungkan **maksimum 8
 
 ## persyaratan sistem
 
-- **xampp** versi 3.3 atau lebih tinggi
-- **python** 3.11 untuk menjalankan script python
+- **xampp** versi 3.3 atau lebih tinggi | [download](https://www.apachefriends.org/download.html)
+- **python** 3.11 untuk menjalankan script python | [download]([https://app.flourish.studio/visualisation/19895848/edit](https://www.python.org/))
 
 ### catatan tentang windows firewall
 
-pastikan untuk mengatur **windows firewall** agar bolehin akses ke xampp. kalo enggak, websitenya mungkin gabisa diakses perangkat lain yang terhubung ke hotspot. caranya gini:
+pastikan buat ngatur biar **windows firewall** bolehin akses ke xampp. kalo enggak, websitenya mungkin gabisa diakses perangkat lain yang terhubung ke hotspot. caranya gini:
 
 1. buka **control panel**.
 2. pilih **system and security**.
@@ -83,13 +83,13 @@ pastikan untuk mengatur **windows firewall** agar bolehin akses ke xampp. kalo e
 7. setelah selesai, klik **ok** untuk menyimpan pengaturan.
 
 ### catatan lain
-- buat catat progress otomatis, kalian bisa buka progress.py dari awal sampai habis, di sana kami bikin interval updatenya 2 menit sekali
+- buat catat progress otomatis, HARUS BANGET buka progress.py di laptop server dari awal sampai habis, di sana kami bikin interval updatenya 2 menit sekali
 
 ---
 **gadhraziel16**
 
-👤 | hasbi 
-👤 | pawas
-👤 | faris
+👤 | hasbi | mhasbishidiq03@gmail.com | hasbio._
+👤 | pawas | anugerahmuhazzib6@gmail.com | anugrh_fawwaz
+👤 | faris | fariszikra90@gmail.com | fariszikraa  
 
 * kalo bisa lanjutin ya ke angkatan selanjutnya, diimprove juga ;)
